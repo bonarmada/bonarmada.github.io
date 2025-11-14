@@ -25,6 +25,13 @@ body {
   letter-spacing: 1px;
 }
 
+.navbar .logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
 .navbar nav a {
   margin-left: 25px;
   text-decoration: none;
