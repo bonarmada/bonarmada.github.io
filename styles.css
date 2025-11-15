@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 60px;
+  padding: 25px 5%;
   font-size: 14px;
 }
 
@@ -95,10 +95,12 @@ body {
 /* Ask box */
 .ask-box {
   margin-top: 25px;
+  padding: 0 5%;
 }
 
 .ask-box input {
-  width: 330px;
+  width: calc(100% - 100px);
+  max-width: 330px;
   padding: 12px 14px;
   border-radius: 6px;
   border: 1px solid #ddd;
@@ -124,7 +126,7 @@ body {
 /* Subsection */
 .project-help {
   margin-top: 90px;
-  padding-bottom: 120px;
+  padding: 0 5% 120px 5%;
 }
 
 .project-help h2 {
@@ -139,4 +141,3 @@ body {
   color: #444;
   line-height: 1.6;
 }
-
